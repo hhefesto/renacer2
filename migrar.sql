@@ -1,0 +1,63 @@
+
+create table customer (
+       customerid int NOT NULL AUTO_INCREMENT,
+       firstname varchar(50) NOT NULL,
+       lastname varchar(50) NOT NULL,
+       address1 varchar(50) NOT NULL,
+       address2 varchar(50),
+       city varchar(50) NOT NULL,
+       state varchar(50),
+       zip int,
+       country varchar(50) NOT NULL,
+       email varchar(50),
+       phone varchar(50),
+       creditcardtype int,
+       creditcard varchar(50),
+       creditcardexpiration varchar(50),
+       username varchar(50) NOT NULL,
+       password varchar(50) NOT NULL,
+       age smallint,
+       income int,
+       gender varchar(1),
+       organization varchar(32) NOT NULL,
+       userfullname varchar(32) NOT NULL,
+       product char(25) NOT NULL,
+       PRIMARY KEY (customerid));
+
+create table paypal (
+       customerid int NOT NULL AUTO_INCREMENT,
+       firstname varchar(50),
+       lastname varchar(50),
+       address1 varchar(50),
+       address2 varchar(50),
+       city varchar(50),
+       state varchar(50),
+       zip int,
+       country varchar(50),
+       email varchar(50),
+       phone varchar(50),
+       creditcardtype int,
+       creditcard varchar(50),
+       creditcardexpiration varchar(50),
+       username varchar(50),
+       password varchar(50),
+       age smallint,
+       income int,
+       gender varchar(1),
+       organization varchar(32),
+       userfullname varchar(32),
+       product varchar(50),
+       idpaypal varchar(50),
+       quantity integer,
+       PRIMARY KEY (customerid));
+
+
+create table download (
+       download_id int NOT NULL AUTO_INCREMENT,
+       customerid int,
+       computerid char(32),
+       download_date char(50),
+       computer_ip char(16),
+       primary key (download_id),
+       FOREIGN KEY (customerid) REFERENCES customer(customerid));
+

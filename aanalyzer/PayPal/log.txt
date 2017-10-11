@@ -1,0 +1,14 @@
+NO_VERIFICADA verified UPDATE paypal SET firstname='John',  lastname='Smith', address1='John Smith', city='San Jose', state='CA',  country='United States', email='buyer@paypalsandbox.com', product='something', paypal='Completed' where idpaypal='xyz123'
+USUARIO: INSERT  into customer (firstname,lastname,address1,address2,city,state,zip,country,username,password,organization,userfullname,product) 
+	 VALUES ( 'John' ,'Smith','John Smith','123, any street','San Jose','CA','95131','United States','jsmith','Y8nwHZ','','John Smith','something')
+ROW0NO_VERIFICADA verified UPDATE paypal SET firstname='John',  lastname='Smith', address1='John Smith', city='San Jose', state='CA',  country='United States', email='buyer@paypalsandbox.com', product='something', paypal='Completed' where idpaypal='xyz123'
+----
+
+ROWNO_VERIFICADA  
+ROWNO_VERIFICADA  
+select count(customerid) from customer where username='jsmith';
+ROWNO_VERIFICADA verified 
+select count(customerid) from customer where username=' ';
+ROWNO_VERIFICADA  INSERT INTO paypal (firstname,lastname,address1,city,state,country,email,product,paypal) VALUES ('','','','','','','','','ERROR-')
+select count(customerid) from customer where username=' ';
+ROWNO_VERIFICADA  INSERT INTO paypal (firstname,lastname,address1,city,state,country,email,product,paypal) VALUES ('','','','','','','','','ERROR-')

@@ -1,0 +1,7 @@
+
+ 
+Añade esto al archivo
+Añade esto al archivo
+Aï¿½ade esto al archivo
+UPDATE paypal SET firstname='John',  lastname='Smith', address1='John Smith', city='San Jose', state='CA',  country='United States', email='buyer@paypalsandbox.com', product='something', paypal='Completed' where idpaypal='xyz123'UPDATE paypal SET firstname='Omar',  lastname='Castillo Vargas', address1='Omar Castillo Vargas', city='Queretaro', state='Querétaro',  country='Mexico', email='omarcv@gmail.com', product='1 License(s) of AAnalyzer.', paypal='Completed' where idpaypal='18591409135140cc67ec6c7973bec7f058a6426469'UPDATE paypal SET firstname='Omar',  lastname='Castillo Vargas', address1='Omar Castillo Vargas', city='Queretaro', state='Querétaro',  country='Mexico', email='omarcv@gmail.com', product='1 License(s) of AAnalyzer.', paypal='Completed' wher
+e idpaypal='1912140913fc8ceef3908390806d6aa87cc294c109'
